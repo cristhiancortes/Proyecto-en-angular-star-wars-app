@@ -3,26 +3,20 @@ body{
   padding: 0;
 }
 
-img{
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-}
-
 .banner{
   background-image: url("https://lumiere-a.akamaihd.net/v1/images/eu_sws-9-the-rise-of-skywalker_hero_r_eecc4b7a.jpeg?region=0,0,3200,1336&width=1536") ;
   overflow: hidden;
   height: 80vh;
-  background-position: bottom;
+
 }
 
-.banner .Letra1 {
+.Letra1 {
   border: none;
   width: 600px;
   height: 50px;
   text-align: center;
   color: black;
-  top: calc(30vh - 35%);
+  top: 10px;
   left: 8%;
   position:relative;
   margin-left: -160px;
@@ -58,7 +52,7 @@ img{
   margin-left: -160px;
   font-size: 75px;
   font-family:fantasy;
-  margin-top: 10vh;
+
 
 }
 

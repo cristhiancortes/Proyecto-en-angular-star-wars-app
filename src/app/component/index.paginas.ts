@@ -7,6 +7,7 @@ export { PlanetasComponent } from  './planetas/planetas.component';
 export { EspeciesComponent } from  './especies/especies.component';
 export { NavesEspacialesComponent } from  './naves-espaciales/naves-espaciales.component';
 export { VehiculosComponent } from  './vehiculos/vehiculos.component';
+export { IntegrantesDeTrabajoComponent } from  './integrantes-de-trabajo/integrantes-de-trabajo.component';
 
 
 

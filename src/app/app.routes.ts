@@ -2,18 +2,23 @@ import {RouterModule, Routes } from '@angular/router';
 
 import {
   HistoriaComponent,
+  IntegrantesDeTrabajoComponent,
   BannerComponent,
   PeliculasComponent,
   PersonasComponent,
   PlanetasComponent,
   EspeciesComponent,
-  NavesEspacialesComponent
+  NavesEspacialesComponent,
+  VehiculosComponent
+
+
 } from "./component/index.paginas";
-import { VehiculosComponent } from './component/vehiculos/vehiculos.component';
+
 
 const app_routes: Routes = [
   {path : '', component: BannerComponent},
   {path : 'historia', component: HistoriaComponent},
+  {path : 'integrantes-de-trabajo', component:IntegrantesDeTrabajoComponent},
   {path : 'peliculas', component: PeliculasComponent},
   {path : 'personas', component: PersonasComponent},
   {path : 'planetas', component: PlanetasComponent},

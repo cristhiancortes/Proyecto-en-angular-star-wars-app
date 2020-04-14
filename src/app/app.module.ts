@@ -26,6 +26,8 @@ import { PersonasComponent } from './component/personas/personas.component';
 import { EspeciesComponent } from './component/especies/especies.component';
 import { NavesEspacialesComponent } from './component/naves-espaciales/naves-espaciales.component';
 import { VehiculosComponent } from './component/vehiculos/vehiculos.component';
+import { IntegrantesDeTrabajoComponent } from './component/integrantes-de-trabajo/integrantes-de-trabajo.component';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +40,8 @@ import { VehiculosComponent } from './component/vehiculos/vehiculos.component';
     PersonasComponent,
     EspeciesComponent,
     NavesEspacialesComponent,
-    VehiculosComponent
+    VehiculosComponent,
+    IntegrantesDeTrabajoComponent,
   ],
   imports: [
     BrowserModule,
