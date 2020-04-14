@@ -2,9 +2,29 @@
 
 {
 
-  "email_institucional" : "1) - crcortes9@poligran.edu.co",
-  "Equipo_de_trabajo" : "1) - Cristhian Eduardo Cortes Martha",
-  "Codigo_institucional":"1) - 1811027924",
-  "Pagina_web_institucion_educativa" : "https://www.poli.edu.co/content/estudiantes",
-  "Paginas_a_cambiar" :"peliculas, planetas, personas, especies, naves_espaciales, vehiculos"
+
+"universidad":"Politecnico Grancolombiano",
+ "carrera": "Ingenieria De Software",
+ "Pagina_web_institucion_educativa" : "https://www.poli.edu.co/content/estudiantes",
+
+            "emailinstitucionalintegrante1" : "crcortes9@poligran.edu.co",
+            "Nombreintegrante1" : "Cristhian Eduardo Cortes Martha",
+            "Codigoinstitucionalintegrante1":" 1811027924",
+
+
+           "emailinstitucionalintegrante2" : "@poligran.edu.co",
+            "Nombreintegrante2" : "Nombre ",
+            "Codigoinstitucionalintegrante2":" Codigos institucionales",
+
+
+            "emailinstitucionalintegrante3" : "@poligran.edu.co",
+            "Nombreintegrante3" : "Nombre ",
+            "Codigoinstitucionalintegrante3":" Codigos institucionales",
+
+
+            "emailinstitucionalintegrante4" : "@poligran.edu.co",
+            "Nombreintegrante4" : "Nombre ",
+            "Codigoinstitucionalintegrante4":" Codigos institucionales",
+
+ "Paginas_a_cambiar" :"peliculas, planetas, personas, especies, naves_espaciales, vehiculos"
 }

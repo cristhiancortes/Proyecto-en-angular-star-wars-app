@@ -4,8 +4,7 @@ header{
   width: 100%;
   overflow: hidden;
   background:white;
-  margin-bottom: 0px;
-  margin: 0;
+
 
 
 }
@@ -28,11 +27,7 @@ header .logo{
 }
 
 header nav {
-
-
   float: right;
-  line-height: 10px;
-
 }
 
 header nav a{
@@ -49,9 +44,10 @@ header nav a{
 }
 
 header nav a:hover{
-
+  cursor: pointer;
   background: rgba(236, 253, 1, 0.863);
   border-radius: 10px;
+
 
 }
 

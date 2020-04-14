@@ -8,6 +8,7 @@ body{
   background-image: url("https://lumiere-a.akamaihd.net/v1/images/eu_sws-9-the-rise-of-skywalker_hero_r_eecc4b7a.jpeg?region=0,0,3200,1336&width=1536") ;
   overflow: hidden;
   height: 90vh;
+  background-repeat: no-repeat;
 
 }
 
@@ -17,9 +18,9 @@ body{
   text-align: center;
   color: black;
   top: 100px;
-  left: 11%;
+  left: 12%;
   position:relative;
-  margin-left: -200px;
+  margin-left: -190px;
   font-size: 75px;
   font-family:fantasy;
   margin-top: 20vh;

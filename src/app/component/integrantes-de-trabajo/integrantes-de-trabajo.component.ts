@@ -1,4 +1,5 @@
 import { Component} from '@angular/core';
+import {InformacionService} from "../../services/informacion.service";
 
 @Component({
   selector: 'app-integrantes-de-trabajo',
@@ -7,5 +8,6 @@ import { Component} from '@angular/core';
 })
 export class IntegrantesDeTrabajoComponent {
 
+  constructor( public _is: InformacionService){}
 
 }
