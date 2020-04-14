@@ -3,57 +3,31 @@ body{
   padding: 0;
 }
 
+
 .banner{
   background-image: url("https://lumiere-a.akamaihd.net/v1/images/eu_sws-9-the-rise-of-skywalker_hero_r_eecc4b7a.jpeg?region=0,0,3200,1336&width=1536") ;
   overflow: hidden;
-  height: 80vh;
+  height: 90vh;
 
 }
 
 .Letra1 {
   border: none;
   width: 600px;
-  height: 50px;
   text-align: center;
   color: black;
-  top: 10px;
-  left: 8%;
+  top: 100px;
+  left: 11%;
   position:relative;
-  margin-left: -160px;
+  margin-left: -200px;
   font-size: 75px;
   font-family:fantasy;
-  margin-top: 8vh;
-
-}
-.Letra2 {
-  border: none;
-  width: 450px;
-  height: 50px;
-  text-align: center;
-  color:rgb(20, 20, 20);
-  top: -380px;
-  left: 10%;
-  position:relative;
-  margin-left: -100px;
-  font-size: 30px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  margin-top: 5vh;
-
-}
-.Letra3 {
-  border: none;
-  width: 600px;
-  height: 50px;
-  text-align: center;
-  color: black;
-  top: -425px;
-  left: 8%;
-  position:relative;
-  margin-left: -160px;
-  font-size: 75px;
-  font-family:fantasy;
-
-
+  margin-top: 20vh;
+  font-size: 45px;
 }
 
+span{
+  color:rgba(223, 228, 178, 0.959);
+
+}
 
