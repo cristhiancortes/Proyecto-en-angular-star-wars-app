@@ -27,6 +27,7 @@ import { EspeciesComponent } from './component/especies/especies.component';
 import { NavesEspacialesComponent } from './component/naves-espaciales/naves-espaciales.component';
 import { VehiculosComponent } from './component/vehiculos/vehiculos.component';
 import { IntegrantesDeTrabajoComponent } from './component/integrantes-de-trabajo/integrantes-de-trabajo.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import { IntegrantesDeTrabajoComponent } from './component/integrantes-de-trabaj
     NavesEspacialesComponent,
     VehiculosComponent,
     IntegrantesDeTrabajoComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
