@@ -12,7 +12,7 @@ import {HttpClient} from '@angular/common/http';
 
   constructor( public HttpClientModule: HttpClient ) {
 
-this.HttpClientModule.get("assets/datosjson/informacion.pagina.json")
+return this.HttpClientModule.get("assets/datosjson/informacion.pagina.json")
       .subscribe(datosjson =>{
           console.log(datosjson);
           this.cargada = true;

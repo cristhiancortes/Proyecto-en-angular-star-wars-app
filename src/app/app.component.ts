@@ -6,10 +6,24 @@ import {InformacionService} from "./services/informacion.service";
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
 
-  constructor( public _is: InformacionService ){
+  informacion = [];
+
+  constructor( public informacionService: InformacionService ){
 
 
+  }
+
+  ngOnInit(){
+    this.informacionService.getIformacion(),
+      .subscribe(
+        informacion => {
+          console.log(informacion)
+          this.informacion = Informacion,
+        },
+        err => console.log(err),
+        
+      )
   }
 }
