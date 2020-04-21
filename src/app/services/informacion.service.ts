@@ -7,13 +7,15 @@ import {HttpClient} from '@angular/common/http';
 @Injectable()
  export class InformacionService {
 
-  info: any = {};
-  cargada:boolean = false;
+    info: any = {};
+    cargada: boolean = false;
 
-  constructor( public HttpClientModule: HttpClient ) {
+constructor( public HttpClientModule: HttpClient ) {
 
-return this.HttpClientModule.get("assets/datosjson/informacion.pagina.json")
-      .subscribe(datosjson =>{
+
+
+ this.HttpClientModule.get("assets/datosjson/informacion.pagina.json")
+      .subscribe(datosjson => {
           console.log(datosjson);
           this.cargada = true;
           this.info = datosjson;
