@@ -1,7 +1,7 @@
 
 
 .home{
-  color: rgb(44, 22, 236);
+  color: white;
   padding-left: 110px;
   padding-top: 20px;
   font-size: 20px;
@@ -12,8 +12,8 @@ h1{
   color: white;
 }
 p{
-  padding-right:150px;
-  padding-left: 150px;
+  padding-right:100px;
+  padding-left: 100px;
   color: white;
 }
 
@@ -30,4 +30,7 @@ h1{
   text-align: center;
 }
 
+.colores {
+  color: white;
+}
 

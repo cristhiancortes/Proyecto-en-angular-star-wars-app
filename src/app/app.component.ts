@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {InformacionService} from "./services/informacion.service";
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,7 +11,7 @@ export class AppComponent {
 
   informacion = [];
 
-  constructor( public informacionService: InformacionService ){
-
+  constructor(
+    public informacionService: InformacionService,
+       ){}
     }
-  }
