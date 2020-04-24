@@ -20,6 +20,5 @@ constructor( public HttpClientModule: HttpClient ) {
           this.cargada = true;
           this.info = datosjson;
 })
-
-   }
+ }
 }

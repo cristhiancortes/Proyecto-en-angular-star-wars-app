@@ -1,5 +1,3 @@
-import { FooterComponent } from './footer/footer.component';
-
 export { HistoriaComponent} from './historia/historia.component';
 export { BannerComponent } from  './banner/banner.component';
 export { PeliculasComponent } from  './peliculas/peliculas.component';

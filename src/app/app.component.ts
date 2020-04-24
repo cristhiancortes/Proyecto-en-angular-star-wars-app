@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {InformacionService} from "./services/informacion.service";
+import { InformacionService } from './services/informacion.service';
 
 
 @Component({
@@ -11,7 +11,10 @@ export class AppComponent {
 
   informacion = [];
 
+
   constructor(
     public informacionService: InformacionService,
-       ){}
+
+         ){}
+
     }

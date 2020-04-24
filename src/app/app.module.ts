@@ -2,18 +2,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
-//RUTAS
 
-import { app_routing} from "./app.routes";
+// RUTAS
+
+import { app_routing} from './app.routes';
 
 
 // SERVICIOS
 
-import { InformacionService } from "./services/informacion.service";
+import { InformacionService } from './services/informacion.service';
+import { VehiclesService } from './services/vehicles.service';
 
 
-
-//COMPONENTES
+// COMPONENTES
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,6 +29,7 @@ import { NavesEspacialesComponent } from './component/naves-espaciales/naves-esp
 import { VehiculosComponent } from './component/vehiculos/vehiculos.component';
 import { IntegrantesDeTrabajoComponent } from './component/integrantes-de-trabajo/integrantes-de-trabajo.component';
 import { FooterComponent } from './component/footer/footer.component';
+
 
 
 @NgModule({
@@ -46,13 +48,15 @@ import { FooterComponent } from './component/footer/footer.component';
     FooterComponent,
   ],
   imports: [
+    app_routing,
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule,
-    app_routing
+    AppRoutingModule
   ],
   providers: [
+    VehiclesService,
     InformacionService
+
   ],
    bootstrap: [AppComponent]
 })

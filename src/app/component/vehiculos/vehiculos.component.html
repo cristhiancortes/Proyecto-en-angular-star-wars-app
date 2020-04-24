@@ -1,2 +1,21 @@
 
-<p>vehiculos works!</p>
+
+<h1>App Vehicles</h1>
+<h2>Muestra la informacion</h2>
+
+<!--
+<div id="Vehicles">
+
+    <h3>{{Vehicles.name}}</h3>
+    <h4>{{Vehicles.model}}</h4>
+    <p>{{Vehicles.manofacturer}}</p>
+
+</div>-->
+
+<div *ngFor = "let Vehicles of ListaDeVehicles">
+
+  <h3>{{ Vehicles.name}}</h3>
+  <h4>{{ Vehicles.model }}</h4>
+  <p>{{ Vehicles.manofacturer }}</p>
+
+</div>
