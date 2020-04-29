@@ -1,13 +1,23 @@
 
-<html>
-<head>
+
 <title>Especies Star Wars</title>
-</head>
-<div class="center">
-    <h1>Especies de Star Wars</h1>
-<p>Podrás encontrar todas las especies y sus características que se encuentra en la saga</p>
+<h1>Consumo Api Rest</h1>
+<h1 style="color: red;">ESTA SERIA LA INFORMACION DE LAS ESPECIES</h1>
+
+<h2>Nuestra info traida desde los servicios</h2>
+
+<div *ngFor = "let especies of ListaDeEspecies">
+
+      <h3 style="color: red;">{{especies.name}}</h3>
+      <h4 style="color: blue;">{{especies.classification}}</h4>
+      <h4>{{especies.designation}}</h4>
+      <h5>{{especies.average_height}}</h5>
+      <h6 style="color: chocolate;">{{especies.skin_colors}}</h6>
+      <h6 style="color: cyan;">{{especies.eye_colors}}</h6>
+      <h6 style="color: cyan;">{{especies.average_lifespan}}</h6>
+      <h6 style="color: cyan;">{{especies.homeworld}}</h6>
+      <h6 style="color: cyan;">{{especies.language}}</h6>
+      <h6 style="color: cyan;">{{especies.people}}</h6>
+
+
 </div>
-
-
-</html>
->
