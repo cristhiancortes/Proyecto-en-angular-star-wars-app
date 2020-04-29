@@ -11,7 +11,9 @@ import { app_routing} from './app.routes';
 // SERVICIOS
 
 import { InformacionService } from './services/informacion.service';
-import { VehiclesService } from './services/vehicles.service';
+import { PeliculasService } from './services/peliculas.service';
+
+
 
 
 // COMPONENTES
@@ -54,7 +56,7 @@ import { FooterComponent } from './component/footer/footer.component';
     AppRoutingModule
   ],
   providers: [
-    VehiclesService,
+    PeliculasService,
     InformacionService
 
   ],

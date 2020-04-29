@@ -1,1 +1,17 @@
-<p>Peliculas</p>
+
+<h1>Consumo Api Rest</h1>
+<h1 style="color: red;">ESTA SERIA LA INFORMACION DE LAS PELICULAS</h1>
+
+<h2>Nuestra info traida desde los servicios</h2>
+
+<div *ngFor = "let Pelicula of ListaDePeliculas">
+
+      <h3 style="color: red;">PELICULA: {{Pelicula.title}}</h3>
+      <h4 style="color: blue;">{{Pelicula.episode_id}}</h4>
+       <p>{{Pelicula.director}}</p>
+       <h5>{{Pelicula.opening_crawl}}</h5>
+      <h6 style="color: chocolate;">{{Pelicula.producer}}</h6>
+      <h6 style="color: cyan;">{{Pelicula.release_date}}</h6>
+
+
+</div>
