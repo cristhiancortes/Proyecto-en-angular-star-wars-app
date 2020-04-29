@@ -15,6 +15,7 @@ import { PeliculasService } from './services/peliculas.service';
 import { PersonasService } from './services/personas.service';
 import { PlanetasService } from './services/planetas.service';
 import { EspeciesService } from './services/especies.service';
+import { NavesEspacialesService } from './services/naves-espaciales.service';
 
 // COMPONENTES
 
@@ -31,6 +32,7 @@ import { NavesEspacialesComponent } from './component/naves-espaciales/naves-esp
 import { VehiculosComponent } from './component/vehiculos/vehiculos.component';
 import { IntegrantesDeTrabajoComponent } from './component/integrantes-de-trabajo/integrantes-de-trabajo.component';
 import { FooterComponent } from './component/footer/footer.component';
+
 
 
 
@@ -60,6 +62,7 @@ import { FooterComponent } from './component/footer/footer.component';
   ],
   providers: [
     PeliculasService,
+    NavesEspacialesService,
     EspeciesService,
     PersonasService,
     PlanetasService,
