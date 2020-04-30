@@ -33,6 +33,7 @@ import { NavesEspacialesComponent } from './component/naves-espaciales/naves-esp
 import { VehiculosComponent } from './component/vehiculos/vehiculos.component';
 import { IntegrantesDeTrabajoComponent } from './component/integrantes-de-trabajo/integrantes-de-trabajo.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; // Modulo de bosstrappppp.
 
 
 
@@ -60,7 +61,8 @@ import { FooterComponent } from './component/footer/footer.component';
     app_routing,
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule // / Modulo de bosstrappppp.
   ],
   providers: [
     PeliculasService,

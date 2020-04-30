@@ -1,4 +1,4 @@
-
+/*
 header{
 
   width: 100%;
@@ -59,6 +59,25 @@ header nav a:hover{
       line-height:100px;
    }
    }
+
+
+
+
+
+Estilos del header con boostrap   */
+
+header{
+  width: 100%;
+  background: black;
+}
+
+nav a  {
+  color: white;
+  font-size: 15px;
+
+}
+
+
 
 
 
