@@ -1,34 +1,39 @@
-<!-- <header>
-  <div class="wrapper">
-      <a routerLink="/">
-    <div class="logo">Star Wars <br> &nbsp; &nbsp; App</div>
-  </a>
-      <nav>
-        <nav>
-          <a routerLink = "integrantes-de-trabajo"> &nbsp;&nbsp;&nbsp;GRUPO DE <br>INTEGRANTES</a>
-          <a routerLink="historia">HISTORIA</a>
-          <a routerLink ="peliculas">PELICULAS</a>
-          <a routerLink ="personas">PERSONAS</a>
-          <a routerLink ="planetas">PLANETAS</a>
-          <a routerLink ="especies">ESPECIES</a>
-          <a routerLink ="naves-espaciales">NAVES ESPACIALES</a>
-          <a routerLink ="vehiculos">VEHICULOS</a>
-        </nav>
+ <header>
+   <input type="checkbox" id="btn-menu">
+   <label for="btn-menu"><img src="https://pngimage.net/wp-content/uploads/2018/06/responsive-menu-icon-png-.png" alt=""></label>
+
+
+
+
+      <nav class="menu">
+          <ul>
+            <li><a routerLink="/">INICIO</a></li>
+            <li><a routerLink="historia">HISTORIA</a></li>
+            <li><a routerLink ="peliculas">PELICULAS</a></li>
+            <li><a routerLink ="personas">PERSONAS</a></li>
+            <li><a routerLink ="planetas">PLANETAS</a></li>
+            <li><a routerLink ="especies">ESPECIES</a></li>
+            <li><a routerLink ="naves-espaciales">NAVES ESPACIALES</a></li>
+            <li><a routerLink ="vehiculos">VEHICULOS</a></li>
+            <li><a routerLink = "integrantes-de-trabajo"> &nbsp;&nbsp;&nbsp;GRUPO DE <br>INTEGRANTES</a></li>
+          </ul>
       </nav>
-  </div>
+
 </header>
 
 
 
 
----------------------app-integrantes-de-trabajo. -->
+<!--
+---------------------app-integrantes-de-trabajo.
 
 <header>
 
-  <input type="checkbox" id="btn-menu">
-  <label for="btn-menu">Menu</label>
+<input type="checkbox" id="btn-menu"/>
+<label for="btn-menu"><img src="https://pngimage.net/wp-content/uploads/2018/06/responsive-menu-icon-png-.png" alt=""></label>
 
-<nav ngbNav #nav="ngbNav" class="nav-tabs">
+
+<nav ngbNav #nav="ngbNav" class="nav-tabs" class="menu">
   <ng-container ngbNavItem>
     <a routerLink="/" ngbNavLink>INICIO</a>
     <ng-template ngbNavContent>
@@ -72,4 +77,5 @@
 </nav>
 <div [ngbNavOutlet]="nav" class="mt-2"></div>
 
-</header>
+
+</header>-->

@@ -65,24 +65,80 @@ header nav a:hover{
 
 
 Estilos del header con boostrap   */
+body{
+  margin: 0;
+  font-family: sans-serif;
+
+}
 
 header{
   width: 100%;
-  background: black;
+  background:black;
 }
 
-nav a  {
-  color: white;
-  font-size: 15px;
+#btn-menu{
+  display: none;
+}
+img{
+  height: 30px;
+  width: 30px;
+}
+header label{
+  display: none;
+  padding: 10px;
+  border-right: 1px solid #ffffff;
+}
+
+header label:hover {
+  cursor: pointer;
+  background: white;
+}
+.menu ul  {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+    justify-content: flex-end;
+}
+
+.menu li{
+  border-right: 1px solid #8c9914;
+}
+
+.menu li:hover{
+  background: rgb(172, 172, 13);
+}
+.menu li a{
+  display: block;
+  padding: 5px 15px;
+  color: #ffffff;
+  text-decoration: none;
 
 }
 
 
 
+@media (max-width:768px){
+  header label{
+      display: block;
+  }
 
 
-
-
-
-
+.menu {
+  position: absolute;
+  background:black ;
+  width: 40%;
+  margin-left:-40%;
+  transition: all 0.5s;
+}
+ .menu ul {
+  flex-direction: column;
+}
+.menu li{
+  border-top: 1px solid #ffffff;
+}
+#btn-menu:checked ~ .menu{
+   margin: 0;
+}
+}
 
