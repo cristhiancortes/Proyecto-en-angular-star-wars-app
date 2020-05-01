@@ -62,7 +62,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; // Modulo de bosstrapppp
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    NgbModule // / Modulo de bosstrappppp.
+    NgbModule // / Modulo de bosstrappppp
   ],
   providers: [
     PeliculasService,

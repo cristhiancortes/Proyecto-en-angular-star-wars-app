@@ -10,25 +10,34 @@ body{
   height: 90vh;
   background-repeat: no-repeat;
 
+
 }
 
-.Letra1 {
-  border: none;
-  width: 600px;
+
+
+h1 {
+  width: 480px;
   text-align: center;
   color: black;
   top: 100px;
-  left: 12%;
-  position:relative;
-  margin-left: -190px;
-  font-size: 75px;
+  position: static;
+  margin-left: 35px;
   font-family:fantasy;
-  margin-top: 20vh;
-  font-size: 45px;
+  margin-top: 40vh;
+  font-size: 42px;
+
+
 }
 
 span{
   color:rgba(223, 228, 178, 0.959);
 
 }
+
+@media screen and (max-width: 500px) {
+  h1{
+  display:none;
+  }
+  }
+
 

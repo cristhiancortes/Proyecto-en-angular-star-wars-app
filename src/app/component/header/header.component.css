@@ -65,6 +65,11 @@ header nav a:hover{
 
 
 Estilos del header con boostrap   */
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   margin: 0;
   font-family: sans-serif;
@@ -76,9 +81,12 @@ header{
   background:black;
 }
 
+
+
 #btn-menu{
   display: none;
 }
+
 img{
   height: 30px;
   width: 30px;
@@ -91,7 +99,6 @@ header label{
 
 header label:hover {
   cursor: pointer;
-  background: white;
 }
 .menu ul  {
   margin: 0;
@@ -116,8 +123,6 @@ header label:hover {
 
 }
 
-
-
 @media (max-width:768px){
   header label{
       display: block;
@@ -127,9 +132,10 @@ header label:hover {
 .menu {
   position: absolute;
   background:black ;
-  width: 40%;
-  margin-left:-40%;
+  width: 70%;
+  margin-left:-70%;
   transition: all 0.5s;
+
 }
  .menu ul {
   flex-direction: column;
