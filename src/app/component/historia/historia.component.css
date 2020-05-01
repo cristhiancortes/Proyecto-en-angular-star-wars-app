@@ -1,36 +1,35 @@
-
-
-.home{
-  color: white;
-  padding-left: 110px;
-  padding-top: 20px;
-  font-size: 20px;
-
-}
-
-h1{
-  color: white;
-}
-p{
-  padding-right:150px;
-  padding-left: 150px;
-  color: white;
-}
-
-.fondo{
-  background-image: url("https://www.xtrafondos.com/wallpapers/star-wars-logo-3654.jpg") ;
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-  background-position: bottom;
-
+*{
+  margin: 0;
+  padding: 0;
 }
 
 h1{
   text-align: center;
+  color: #ffff00;
+  font-family: fantasy;
 }
 
-.colores {
-  color: white;
+h3{
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-right: 10px;
+  list-style: none;
+  color: #ffff00;
+  font-family: fantasy;
+}
+p{
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-right: 10px;
 }
 
+.fondo{
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png") ;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+}
+
+.color{
+  color: #f8f8f8da;
+}
