@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+
+
 @Injectable({
   providedIn: 'root'
 })
@@ -13,10 +15,14 @@ export class PlanetasService {
     return Planetas;
   }
 
+  getPersonas(){
+    const Personas ={};
+    return Personas;
+  }
+
   TraerTodosLosPlanetas(){
 
     return this.httpClient.get ('https://swapi.py4e.com/api/planets/');
 
   }
-
 }

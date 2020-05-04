@@ -20,5 +20,4 @@ export class PeliculasService {
     return this.httpClient.get ('https://swapi.py4e.com/api/films/');
 
   }
-
 }

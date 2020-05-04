@@ -1,18 +1,46 @@
 <div class="fondo">
-<h1>Consumo Api Rest</h1>
-<h1 style="color: red;">ESTA SERIA LA INFORMACION DE LAS PELICULAS</h1>
 
-<h2>Nuestra info traida desde los servicios</h2>
+  <h1 class="titulo">PELICULAS</h1>
 
-<div *ngFor = "let Pelicula of ListaDePeliculas">
+  <div class="container">
+      <div *ngFor = "let Pelicula of ListaDePeliculas">
 
-      <h3 style="color: red;">PELICULA: {{Pelicula.title}}</h3>
-      <h4 style="color: blue;">{{Pelicula.episode_id}}</h4>
-       <p>{{Pelicula.director}}</p>
-       <h5>{{Pelicula.opening_crawl}}</h5>
-      <h6 style="color: chocolate;">{{Pelicula.producer}}</h6>
-      <h6 style="color: cyan;">{{Pelicula.release_date}}</h6>
+          <div class="grupo">
+            <div class="contenido1">
+                <h3 style="color: yellow;">Nombre:</h3>
+                <h3 style="color: white;">{{Pelicula.title}}</h3>
+          </div>
+
+          <div class="contenido1">
+                <h3 style="color: yellow;">Episodio:</h3>
+                <h3 style="color: white;">{{Pelicula.episode_id}}</h3>
+            </div>
+
+            <div class="contenido1">
+                <h3 style="color: yellow;">Director:</h3>
+                <h3 style="color: white;">{{Pelicula.director}}</h3>
+            </div>
 
 
+            <div class="contenido1">
+                <h3 style="color: yellow;">Apertura:</h3>
+                <h3 style="color: white;">{{Pelicula.opening_crawl}}</h3>
+            </div>
+
+            <div class="contenido1">
+                <h3 style="color: yellow;">Productor:</h3>
+                <h3 style="color: white;">{{Pelicula.producer}}</h3>
+            </div>
+
+            <div class="contenido1">
+                <h3 style="color: yellow;">Fecha de Lanzamiento:</h3>
+                <h3 style="color: white;">{{Pelicula.release_date}}</h3>
+            </div>
+
+
+
+
+
+</div><br>
 </div>
 </div>

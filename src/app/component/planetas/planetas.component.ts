@@ -3,6 +3,8 @@ import { PlanetasService } from '../../services/planetas.service';
 
 
 
+
+
 @Component({
   selector: 'app-planetas',
   templateUrl: './planetas.component.html',
@@ -12,9 +14,11 @@ export class PlanetasComponent  {
 
  ListaDePlanetas: [];
 
+
  constructor( private planetasService: PlanetasService){
    this.ListaDePlanetas = [];
    this.LlenarListaDePlanetas ();
+
  }
 
  LlenarListaDePlanetas (){
@@ -26,7 +30,5 @@ export class PlanetasComponent  {
          this.ListaDePlanetas = data ['results'];
      }
    );
- }
-}
-
-
+    }
+  }
