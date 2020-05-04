@@ -8,5 +8,6 @@ export { NavesEspacialesComponent } from  './naves-espaciales/naves-espaciales.c
 export { VehiculosComponent } from  './vehiculos/vehiculos.component';
 export { IntegrantesDeTrabajoComponent } from  './integrantes-de-trabajo/integrantes-de-trabajo.component';
 export { FooterComponent  } from './footer/footer.component';
+export { Pagina2Component  } from '../personajes/pagina2/pagina2.component';
 
 

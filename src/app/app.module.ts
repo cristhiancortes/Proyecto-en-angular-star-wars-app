@@ -17,6 +17,7 @@ import { PlanetasService } from './services/planetas.service';
 import { EspeciesService } from './services/especies.service';
 import { NavesEspacialesService } from './services/naves-espaciales.service';
 import { VehiculosService } from './services/vehiculos.service';
+import { Personas2Service } from './services/personas2.service';
 
 // COMPONENTES
 
@@ -33,7 +34,7 @@ import { NavesEspacialesComponent } from './component/naves-espaciales/naves-esp
 import { VehiculosComponent } from './component/vehiculos/vehiculos.component';
 import { IntegrantesDeTrabajoComponent } from './component/integrantes-de-trabajo/integrantes-de-trabajo.component';
 import { FooterComponent } from './component/footer/footer.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; // Modulo de bosstrappppp.
+import { Pagina2Component } from './personajes/pagina2/pagina2.component';
 
 
 
@@ -56,13 +57,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; // Modulo de bosstrapppp
     VehiculosComponent,
     IntegrantesDeTrabajoComponent,
     FooterComponent,
+    Pagina2Component,
   ],
   imports: [
     app_routing,
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    NgbModule // / Modulo de bosstrappppp
+
   ],
   providers: [
     PeliculasService,
@@ -71,7 +73,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; // Modulo de bosstrapppp
     EspeciesService,
     PersonasService,
     PlanetasService,
-    InformacionService
+    InformacionService,
+    Personas2Service
 
   ],
    bootstrap: [AppComponent]
