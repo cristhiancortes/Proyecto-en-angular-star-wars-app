@@ -46,14 +46,3 @@
   margin: 10px;
   display: flex;
 }
-
-.boton{
-  color: black;
-  padding: 5px;
-  border-radius: 10px;
-}
-
-.boton:hover{
-  color: rgb(151, 151, 0);
-
-}

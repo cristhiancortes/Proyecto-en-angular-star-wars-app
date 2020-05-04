@@ -16,7 +16,9 @@ import {
   Pagina4Component,
   Pagina5Component,
   Pagina6Component,
-  Pagina7Component
+  Pagina7Component,
+  Pagina8Component,
+  Pagina9Component
 
 
 
@@ -32,6 +34,8 @@ const app_routes: Routes = [
   {path : 'pagina5', component: Pagina5Component},
   {path : 'pagina6', component: Pagina6Component},
   {path : 'pagina7', component: Pagina7Component},
+  {path : 'pagina8', component: Pagina8Component},
+  {path : 'pagina9', component: Pagina9Component},
   {path : 'historia', component: HistoriaComponent},
   {path : 'integrantes-de-trabajo', component: IntegrantesDeTrabajoComponent},
   {path : 'peliculas', component: PeliculasComponent},

@@ -23,6 +23,8 @@ import { Personas4Service } from './services/personas4.service';
 import { Personas5Service } from './services/personas5.service';
 import { Personas6Service } from './services/personas6.service';
 import { Personas7Service } from './services/personas7.service';
+import { Personas8Service } from './services/persona8.service';
+import { Personas9Service } from './services/persona9.service'
 
 // COMPONENTES
 
@@ -45,6 +47,8 @@ import { Pagina4Component } from './persojanes/pagina4/pagina4.component';
 import { Pagina5Component } from './personajes/pagina5/pagina5.component';
 import { Pagina6Component } from './personajes/pagina6/pagina6.component';
 import { Pagina7Component } from './personajes/pagina7/pagina7.component';
+import { Pagina8Component } from './personajes/pagina8/pagina8.component';
+import { Pagina9Component } from './personajes/pagina9/pagina9.component';
 
 
 
@@ -73,6 +77,8 @@ import { Pagina7Component } from './personajes/pagina7/pagina7.component';
     Pagina5Component,
     Pagina6Component,
     Pagina7Component,
+    Pagina8Component,
+    Pagina9Component,
   ],
   imports: [
     app_routing,
@@ -94,7 +100,9 @@ import { Pagina7Component } from './personajes/pagina7/pagina7.component';
     Personas4Service,
     Personas5Service,
     Personas6Service,
-    Personas7Service
+    Personas7Service,
+    Personas8Service,
+    Personas9Service
   ],
    bootstrap: [AppComponent]
 })
