@@ -1,7 +1,7 @@
 import {RouterModule, Routes } from '@angular/router';
 
 import {
-  Pagina2Component,
+
   HistoriaComponent,
   IntegrantesDeTrabajoComponent,
   BannerComponent,
@@ -11,6 +11,13 @@ import {
   EspeciesComponent,
   NavesEspacialesComponent,
   VehiculosComponent,
+  Pagina2Component,
+  Pagina3Component,
+  Pagina4Component,
+  Pagina5Component,
+  Pagina6Component,
+  Pagina7Component
+
 
 
 
@@ -20,6 +27,11 @@ import {
 const app_routes: Routes = [
   {path : '', component: BannerComponent},
   {path : 'pagina2', component: Pagina2Component},
+  {path : 'pagina3', component: Pagina3Component},
+  {path : 'pagina4', component: Pagina4Component},
+  {path : 'pagina5', component: Pagina5Component},
+  {path : 'pagina6', component: Pagina6Component},
+  {path : 'pagina7', component: Pagina7Component},
   {path : 'historia', component: HistoriaComponent},
   {path : 'integrantes-de-trabajo', component: IntegrantesDeTrabajoComponent},
   {path : 'peliculas', component: PeliculasComponent},

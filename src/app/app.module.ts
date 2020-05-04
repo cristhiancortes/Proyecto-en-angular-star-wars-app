@@ -18,6 +18,11 @@ import { EspeciesService } from './services/especies.service';
 import { NavesEspacialesService } from './services/naves-espaciales.service';
 import { VehiculosService } from './services/vehiculos.service';
 import { Personas2Service } from './services/personas2.service';
+import { Personas3Service } from './services/personas3.service';
+import { Personas4Service } from './services/personas4.service';
+import { Personas5Service } from './services/personas5.service';
+import { Personas6Service } from './services/personas6.service';
+import { Personas7Service } from './services/personas7.service';
 
 // COMPONENTES
 
@@ -35,6 +40,11 @@ import { VehiculosComponent } from './component/vehiculos/vehiculos.component';
 import { IntegrantesDeTrabajoComponent } from './component/integrantes-de-trabajo/integrantes-de-trabajo.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { Pagina2Component } from './personajes/pagina2/pagina2.component';
+import { Pagina3Component } from './personajes/pagina3/pagina3.component';
+import { Pagina4Component } from './persojanes/pagina4/pagina4.component';
+import { Pagina5Component } from './personajes/pagina5/pagina5.component';
+import { Pagina6Component } from './personajes/pagina6/pagina6.component';
+import { Pagina7Component } from './personajes/pagina7/pagina7.component';
 
 
 
@@ -58,6 +68,11 @@ import { Pagina2Component } from './personajes/pagina2/pagina2.component';
     IntegrantesDeTrabajoComponent,
     FooterComponent,
     Pagina2Component,
+    Pagina3Component,
+    Pagina4Component,
+    Pagina5Component,
+    Pagina6Component,
+    Pagina7Component,
   ],
   imports: [
     app_routing,
@@ -74,8 +89,12 @@ import { Pagina2Component } from './personajes/pagina2/pagina2.component';
     PersonasService,
     PlanetasService,
     InformacionService,
-    Personas2Service
-
+    Personas2Service,
+    Personas3Service,
+    Personas4Service,
+    Personas5Service,
+    Personas6Service,
+    Personas7Service
   ],
    bootstrap: [AppComponent]
 })
