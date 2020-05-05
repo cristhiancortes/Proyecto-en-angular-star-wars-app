@@ -46,3 +46,12 @@
   margin: 10px;
   display: flex;
 }
+.pos1{
+  float: left;
+ 
+ }
+.pos2{
+ float: right;
+
+}
+

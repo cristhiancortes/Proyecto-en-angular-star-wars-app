@@ -2,8 +2,14 @@
 <div class="fondo">
   <div class="container">
   <h1 style="color: yellow;">Personajes Star Wars</h1>
-  <button routerLink="/pagina3">ATRAS</button>
-  <button routerLink="/pagina5">SIGUIENTE</button>
+  <div class="pos1">
+      <button class="boton" routerLink="/pagina3">ATRÁS</button>
+  </div>
+  <div class="pos2">
+   <button class="boton" routerLink="/pagina5">SIGUIENTE</button>
+  </div>
+  <br>
+   <br>
   <div *ngFor = "let Personas of ListaDePersonas4">
         <div class="grupo">
         <div class="contenido1">
@@ -44,6 +50,13 @@
         </div>
   </div><br>
   </div>
+  <div class="pos1">
+      <button class="boton" routerLink="/pagina3">ATRÁS</button>
+  </div>
+  <div class="pos2">
+   <button class="boton" routerLink="/pagina4">SIGUIENTE</button>
+  </div>
+  <br><br>
   </div>
 
   </div>
